@@ -9,7 +9,25 @@ console.log(add(12,12));
 
 // ____________________________________________________________________________________________________________
 // 2. Escribe una función que tome una cadena de texto como parámetro y devuelva la longitud de la cadena.
+var size = (cadena) => {
+    let e =0, arreglo = cadena.split("");
+    // for (const value of arreglo) {
+    //     e++;
+    //   }
+    for (let i = 0; i < arreglo.length; i++) {
+        e++;
+    }
+    return e;
+    // return cadena.length;
+}
 
+let cadena = "Max"
+
+console.log(size(cadena));
+console.log(size("Freddy"));
+
+// R= 3
+// R= 6
 
 // ____________________________________________________________________________________________________________
 // 3. Escribe una función que tome un arreglo de números como parámetro y devuelva la suma de todos los elementos del arreglo.
@@ -49,18 +67,7 @@ console.log(addArray([12,5,3]));
 
 
 // 9. Escribe una función que tome un arreglo como parámetro y devuelva el número de elementos en el arreglo.
-var size = (cadena) => {
-    let e =0, arreglo = cadena.split("");
-    for (let i = 0; i < arreglo.length; i++) {
-        e++;
-    }
-    return e;
-    // return cadena.length;
-}
 
-console.log(size("Freddy"));
-
-// R= 6
 
 
 // 10.Escribe una función que tome un número como parámetro y devuelva true si el número es positivo, o false si es negativo.
