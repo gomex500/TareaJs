@@ -7,10 +7,11 @@ console.log(add(12,12));
 
 // R= 24
 
-
+// ____________________________________________________________________________________________________________
 // 2. Escribe una función que tome una cadena de texto como parámetro y devuelva la longitud de la cadena.
 
 
+// ____________________________________________________________________________________________________________
 // 3. Escribe una función que tome un arreglo de números como parámetro y devuelva la suma de todos los elementos del arreglo.
 var addArray  = (arreglo) => {
     let sum = 0;
@@ -31,10 +32,10 @@ console.log(addArray([12,5,3]));
 // R= 11
 // R= 20
 
-
+// ____________________________________________________________________________________________________________
 // 4. Escribe una función que tome una cadena como parámetro y devuelva la cadena con las palabras en orden inverso.
 
-
+// ____________________________________________________________________________________________________________
 // 5. Escribe una función que tome un arreglo como parámetro y devuelva el primer elemento del arreglo.
 
 
