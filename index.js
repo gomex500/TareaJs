@@ -12,13 +12,24 @@ console.log(add(12,12));
 
 
 // 3. Escribe una función que tome un arreglo de números como parámetro y devuelva la suma de todos los elementos del arreglo.
-var add  = (x,y) => {
-    return x + y;
+var addArray  = (arreglo) => {
+    let sum = 0;
+    // for (let val of arreglo) {
+    //     sum += val;
+    //   }
+    for (let i = 0; i < arreglo.length; i++) {
+        sum += arreglo[i];
+    }
+    return sum;
 }
 
-console.log(add(12,12));
+let array = [2,4,5];
 
-// R= 24
+console.log(addArray(array));
+console.log(addArray([12,5,3]));
+
+// R= 11
+// R= 20
 
 
 // 4. Escribe una función que tome una cadena como parámetro y devuelva la cadena con las palabras en orden inverso.
