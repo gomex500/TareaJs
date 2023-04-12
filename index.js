@@ -1,10 +1,24 @@
 // 1. Escribe una función que tome dos números como parámetros y devuelva la suma de ambos números.
+var add  = (x,y) => {
+    return x + y;
+}
+
+console.log(add(12,12));
+
+// R= 24
 
 
 // 2. Escribe una función que tome una cadena de texto como parámetro y devuelva la longitud de la cadena.
 
 
 // 3. Escribe una función que tome un arreglo de números como parámetro y devuelva la suma de todos los elementos del arreglo.
+var add  = (x,y) => {
+    return x + y;
+}
+
+console.log(add(12,12));
+
+// R= 24
 
 
 // 4. Escribe una función que tome una cadena como parámetro y devuelva la cadena con las palabras en orden inverso.
@@ -23,6 +37,18 @@
 
 
 // 9. Escribe una función que tome un arreglo como parámetro y devuelva el número de elementos en el arreglo.
+var size = (cadena) => {
+    let e =0, arreglo = cadena.split("");
+    for (let i = 0; i < arreglo.length; i++) {
+        e++;
+    }
+    return e;
+    // return cadena.length;
+}
+
+console.log(size("Freddy"));
+
+// R= 6
 
 
 // 10.Escribe una función que tome un número como parámetro y devuelva true si el número es positivo, o false si es negativo.
