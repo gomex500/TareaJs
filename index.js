@@ -22,22 +22,4 @@ console.log(addArray([12,5,3]));
 
 
 // 9. Escribe una función que tome un arreglo como parámetro y devuelva el número de elementos en el arreglo.
-var size = (cadena) => {
-    let e =0, arreglo = cadena.split("");
-    // for (const value of arreglo) {
-    //     e++;
-    //   }
-    for (let i = 0; i < arreglo.length; i++) {
-        e++;
-    }
-    return e;
-    // return cadena.length;
-}
 
-let cadena = "Max"
-
-console.log(size(cadena));
-console.log(size("Freddy"));
-
-// R= 3
-// R= 6
