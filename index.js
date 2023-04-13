@@ -67,7 +67,15 @@ console.log(addArray([12,5,3]));
 
 
 // 9. Escribe una función que tome un arreglo como parámetro y devuelva el número de elementos en el arreglo.
+var arregloLength = arreglo => {
+    let e =0;
+    for (let i = 0; i < arreglo.length; i++) {
+        e++;
+    }
+    return e;
+}
 
+console.log(arregloLength([12,34,5]));
 
 
 // 10.Escribe una función que tome un número como parámetro y devuelva true si el número es positivo, o false si es negativo.
