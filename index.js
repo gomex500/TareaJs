@@ -22,4 +22,12 @@ console.log(addArray([12,5,3]));
 
 
 // 9. Escribe una función que tome un arreglo como parámetro y devuelva el número de elementos en el arreglo.
+var arregloLength = arreglo => {
+    let e =0;
+    for (let i = 0; i < arreglo.length; i++) {
+        e++;
+    }
+    return e;
+}
 
+console.log(arregloLength([12,34,5]));
