@@ -75,7 +75,13 @@ var arregloLength = arreglo => {
     return e;
 }
 
+let arr = [2,4,5,6,12];
+
+console.log(arregloLength(arr));
 console.log(arregloLength([12,34,5]));
+
+//5
+//3
 
 
 // 10.Escribe una función que tome un número como parámetro y devuelva true si el número es positivo, o false si es negativo.
