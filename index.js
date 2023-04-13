@@ -30,4 +30,10 @@ var arregloLength = arreglo => {
     return e;
 }
 
+let arr = [2,4,5,6,12];
+
+console.log(arregloLength(arr));
 console.log(arregloLength([12,34,5]));
+
+//5
+//3
